@@ -1,0 +1,23 @@
+# .gitignore
+
+# Terraform cache and build
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+
+# Plan files
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
